@@ -1,0 +1,281 @@
+@media (min-width:40em) {
+    .split
+    {
+        flex-direction: row;
+    }
+    .split > *
+    {
+        flex-basis: 100%;
+    }
+    .split > * + *
+    {
+        margin-left: 2em;
+    }
+      .split-2
+    {
+        flex-direction: row;
+    }
+    .split-2 > *
+    {
+        flex-basis: 100%;
+    }
+    .split-2 > * + *
+    {
+        margin-left: 2em;
+    }
+    .split-3
+    {
+        flex-direction: row;
+    }
+    .split-3 > *
+    {
+        flex-basis: 100%;
+    }
+    .split-3 > * + *
+    {
+        margin-left: 2em;
+    }
+}
+@media (max-width: 840px) {
+    .background
+    {
+        /* background-position: 100%; */
+        background-position: 81.49% 50%;
+    }
+    .background-content
+    {
+        /* padding-top: 10rem; */
+        padding: 2rem;
+    }
+    .background h1
+    {
+       
+        font-weight: 900;
+        font-size: 3rem;
+    }
+    .background h2
+    {
+        padding-top: 13rem;
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    /* .background-text
+    {
+        margin: 1rem;
+    } */
+    .first-hr
+{
+    /* margin-left: 5rem; */
+    border: 0;
+    background-color: white;
+    height: 0.6rem;
+    max-width: 55%;
+    margin-top: 0.6rem;
+    margin-bottom: 1.4rem;
+}
+    .services-text
+    {
+        padding: 6rem 2rem;
+    }
+    .split
+    {
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    .quality
+    {
+        line-height: normal;
+        
+    }
+    /* .split-2 .trans-img
+    {
+        padding-top: 13rem;
+        width: 100vw;
+    }
+    .transparent
+    {
+        height: 80vh;
+    } */
+    .quality .book-btn
+    {
+        margin-bottom: 1rem;
+    }
+    .quality h1
+    {
+        padding-top: 1rem;
+    }
+    .blue .container .split-3 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .plumbing-img
+    {
+        max-width: 60%;
+        display: block;
+        padding: 0;
+        margin: 0;
+        margin-right: 6rem;
+    }
+    .blue
+    {
+        padding: 0;
+    }
+    .blue-text
+    {
+    margin:1rem;
+    display: flex;
+    flex-direction: row;
+    }
+    .row
+    {
+        margin: 0;
+    }
+    .row-row
+    {
+        padding: 0.7rem;
+    
+    }
+    small
+    {
+        margin-top: 2rem
+    }
+    .pl
+    {
+        margin-top: 0;
+    
+    }
+    .se
+    {
+        margin: 0rem;
+    }
+    .to-do
+    {
+        padding: 4rem 0.9rem;
+        width: 100%;
+    }
+}
+@media (max-width:480px) {
+    .head
+    {
+        width: min(90%,70.5rem);
+        padding: 0.7rem 1rem;
+        height: 3rem;
+    }
+    .container
+    {
+        width: min(100%,80rem);
+    }
+    .background
+    {
+        background-position: 90% 70%;
+        background-size: cover;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+
+    }
+    .background-content
+    {
+        padding-top: 10rem;
+        padding-left: 2rem;
+    }
+    .background h1
+    {
+        font-weight: 900;
+        font-size: 3rem;
+    }
+    .background h2
+    {
+        font-weight: 100;
+        font-size: 1.8rem;
+    }
+    .imgs
+    {
+      display: none;
+
+    }  
+    .first-hr
+    {
+        max-width: 100%;
+    }  
+    .tech-text
+    {
+        font-weight: lighter;
+        color: rgb(54, 54, 54);
+        padding: 1rem;
+        width: 100%;
+    }
+    .split
+    {
+    padding: 2rem 2rem 0rem;
+    }
+    .plumbing-img
+    {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .blue
+    {
+        padding: 0;
+        margin: 0;
+    }
+    .blue-text
+    {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    }
+    .blue-text h1
+    {
+    font-size: 3rem;
+    }
+    .row
+    {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .row-row
+    {
+        padding: 0.7rem;
+    
+    }
+    small
+    {
+        margin-top: 2rem
+    }
+    .pl
+    {
+        margin-top: 0;
+    
+    }
+    .se
+    {
+        margin: 0;
+    }
+    .to-do
+    {
+        padding: 3rem 2rem;
+        background-color: white;
+        text-align: center;
+    }
+    .to-do h5
+    {
+        font-size: 1.8rem;
+    }
+    .to-do p
+    {
+        font-size: 1.2rem;
+    }
+    .book-call-btn
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
